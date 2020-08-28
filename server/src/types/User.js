@@ -28,20 +28,19 @@ module.exports = gql`
     id: ID!
   }
 
+
+   
   type DeletePayload{
     id: ID!
   }
 
   type Query {
-    users(id:ID!): [User]
-   
+    users: [User]
   }
-
 
   type Mutation {
     createUser(input: CreateUserInput!): User!
     updateUser(id: ID!, input: UpdateUserInput!): User!
     deleteUser(id: ID!): DeletePayload!
   }
-  
 `;
