@@ -12,6 +12,7 @@
   "dependencies": {
     "apollo-server": "^2.14.2",
     "dotenv": "^8.2.0",
+    "graphql-constraint-directive": "^2.1.0",
     "mongoose": "^5.9.17",
     "nodemon": "^2.0.4"
   }

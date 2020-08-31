@@ -4,21 +4,22 @@ const { Schema } = mongoose;
 const userSchema = new Schema({
   FirstName: {
     type: String,
-    trim: true
+    required: true,
+    unique: true,
   },
   LastName: {
     type: String,
-    trim: true
+    required: true,
+    unique: true,
   },
-  email:{
-    type:String
+  email: {
+    type: String,
+    required: true,
+    unique: true,
   },
-  Role: {
-    type:String,
-    isArt:true ,
-    isDesigner:true,
-    isArtManager:true
-  }
+  role: {
+    type: String
+  },
 });
 
 const User = mongoose.model("User", userSchema);

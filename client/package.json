@@ -1,0 +1,28 @@
+{
+  "name": "react-graphql-crud",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-client-preset": "^1.0.8",
+    "apollo-link": "^1.1.0",
+    "apollo-link-ws": "^1.0.5",
+    "bootstrap": "^4.0.0",
+    "graphql": "^0.13.0",
+    "graphql-tag": "^2.7.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "react-select-search": "^2.0.6",
+    "reactstrap": "^8.5.1",
+    "subscriptions-transport-ws": "^0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

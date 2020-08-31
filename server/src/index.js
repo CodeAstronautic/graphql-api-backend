@@ -3,7 +3,6 @@ const connectDb = require("./config/db");
 const typeDefs = require("./types");
 const resolvers = require("./resolvers");
 const models = require("./models");
-
 connectDb();
 
 const server = new ApolloServer({ 
@@ -13,5 +12,5 @@ const server = new ApolloServer({
 });
 
 server.listen({ port: process.env.PORT || 8000 }).then(({ url }) => {
-  console.log(`🚀 Server ready at ${url}`);
+  console.log(` Server ready at ${url}`);
 });
